@@ -1,16 +1,16 @@
 <template>
   <div class="home">
-    <div id="d1"></div>
+    <top-nav></top-nav>
   </div>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
+import TopNav from "@/components/TopNav.vue";
 
 @Options({
   components: {
-    HelloWorld,
+    TopNav,
   },
 })
 export default class Home extends Vue {}
